@@ -10,7 +10,7 @@ stages:
   - job: firstjob
     steps: 
     - bash: echo first job
-    - bash: $(PIPELINELEVELVARIABLE)
+    - bash: $(pipelineLevelVariable)
   - job: secondjob
     steps: 
     - bash: echo second job 
